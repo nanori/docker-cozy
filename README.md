@@ -31,7 +31,7 @@ services:
         links:
             - couchdb
   couchdb:
-      image: ylucet/cozy-couchdb
+      image: nanori/cozy-couchdb
       build: ./images/cozy-couchdb
       restart: always
       networks:
